@@ -10,7 +10,7 @@ library(ggplot2)
 library(tidyverse)
 
 ## read data
-df.tot<-read.csv("recruitment_data_resubmit.csv", head = TRUE)
+df.tot<-read.csv("C:/Users/Viviana Brambilla/Dropbox/Viviana/Maldives recruitment study/Submission2/Brambilla_et_al_RecruitmentData.csv", head = TRUE)
 
 str(df.tot)
 df.tot$srug <- scale(df.tot$sr) ## mean center surface rugosity 
